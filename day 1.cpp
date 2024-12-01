@@ -5,10 +5,9 @@ auto main() -> int {
   std::cin.tie(0);
   freopen("day1_input.txt", "r", stdin);
 
-  auto res = int{};
+  auto res = int{}; auto count = int{};
   auto x = int{}; auto y = int{};
   auto xvec = std::vector<int>{}; auto yvec = std::vector<int>{};
-  auto count = int{};
 
   while (std::cin >> x >> y) {
     xvec.push_back(x);
