@@ -6,7 +6,7 @@ auto main() -> int {
 
   auto count = 0;
 
-  freopen("day2_input.txt", "r", stdin);
+  freopen("input.txt", "r", stdin);
   std::string s;
   while (std::getline(std::cin, s)) {
     std::stringstream line(s);
