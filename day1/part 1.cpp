@@ -3,7 +3,7 @@
 auto main() -> int {
   std::ios::sync_with_stdio(0);
   std::cin.tie(0);
-  freopen("day1_input.txt", "r", stdin);
+  freopen("input.txt", "r", stdin);
 
   auto res = int{}; auto count = int{};
   auto x = int{}; auto y = int{};
